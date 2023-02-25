@@ -21,14 +21,14 @@
         <p>Search About Your Favour Hero's</p>
         <div class="input-group">
           <input type="text" class="form-control" placeholder="Search">
-          <button class="btn btn-primary btn-rounded">Search</button>
+          <button class="btn btn-primary btn-rounded" id="search-btn">Search</button>
         </div>
       </div>
     </header>
     <main>
       <section class="cards">
         <h1 class="text-center heading">Hero's</h1>
-        <div class="slider">
+        <div class="slider" id="slider-sec">
           <div class="slide">
             <a href="">
               <div class="card">
@@ -60,6 +60,52 @@
               <h1>Title 1 </h1>
               </div>
             </a>
+          </div>
+        </div>
+      </section>
+      <section class="hero-details">
+        <div class="card">
+          <div class="hero-img text-center">
+            <img src="./img/hero.png" alt="">
+          </div>
+          <div class="hero-detail">
+            <h1 class="text-xl">Title</h1>
+            <ul class="hero-tab">
+              <li class="hero-tab-item">
+                Item1
+              </li>
+              <li class="hero-tab-item">
+                Item2
+              </li>
+              <li class="hero-tab-item">
+                Item3
+              </li>
+            </ul>
+            <div class="hero-tab-container">
+              <div class="hero-tab-content">
+                  <p>Tab1 content</p>
+              </div>
+              <div class="hero-tab-content d-none">
+                <p>Tab2 content</p>
+              </div>
+              <div class="hero-tab-content d-none">
+                <p>Tab3 content</p>
+              </div>
+            </div>
+            <div class="hero-related-container">
+              <h3>Related Heros</h3>
+              <ul class="hero-rel">
+                <li class="hero-rel-item">
+                  <img src="./img/hero.png" alt="">
+                </li>
+                <li class="hero-rel-item">
+                  <img src="./img/hero.png" alt="">
+                </li>
+                <li class="hero-rel-item">
+                  <img src="./img/hero.png" alt="">
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
